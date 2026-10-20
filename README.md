@@ -6,7 +6,7 @@ See [companion/HELP.md](companion/HELP.md) for setting it up, and the actions, f
 
 ## Needs
 
-- Lumora a.7.2.013 or later (OSC, under Setup → Control).
+- Lumora a.7.2.2 or later (OSC, under Setup → Control).
 - Companion 3.x or 4.x.
 
 ## Developing
