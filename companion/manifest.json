@@ -1,0 +1,27 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "lumora-console",
+	"name": "Lumora: Console",
+	"shortname": "lumora",
+	"description": "Control the Lumora lighting console over OSC: executors, cues, command keys, masters and encoders, with live names, cues and levels back on the buttons.",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/typoirl/companion-module-lumora-console.git",
+	"bugs": "https://github.com/typoirl/companion-module-lumora-console/issues",
+	"maintainers": [
+		{
+			"name": "typoirl",
+			"github": "typoirl"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/main.js"
+	},
+	"manufacturer": "Lumora",
+	"products": ["Lumora"],
+	"keywords": ["Lighting", "Console", "OSC", "Theatre", "DMX"]
+}

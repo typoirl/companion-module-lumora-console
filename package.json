@@ -1,0 +1,28 @@
+{
+	"name": "companion-module-lumora-console",
+	"version": "1.0.0",
+	"description": "Bitfocus Companion module for the Lumora lighting console, over OSC",
+	"main": "src/main.js",
+	"type": "module",
+	"scripts": {
+		"test": "node --test test/*.test.js",
+		"package": "companion-module-build",
+		"format": "prettier -w ."
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/typoirl/companion-module-lumora-console.git"
+	},
+	"engines": {
+		"node": "^22.8"
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.14.1"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^2.8.0",
+		"prettier": "^3.3.3"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json"
+}
